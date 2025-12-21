@@ -57,7 +57,7 @@ body::after{
   gap:18px;padding:14px 0;
 }
 .brand{display:flex;align-items:center;gap:14px;min-width:260px}
-.avatar{width:120px;height:120px;border-radius:28px;border:1px solid var(--border);object-fit:cover}
+.avatar{width:150px;height:150px;border-radius:28px;border:1px solid var(--border);object-fit:cover}
 .name{font-weight:800;letter-spacing:.2px}
 .tagline{font-size:13px;color:var(--muted)}
 
