@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+  <defs>
+    <style>
+      .w{fill:none;stroke:#a9b6ff;stroke-opacity:.35;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .t{fill:none;stroke:#69f0d0;stroke-opacity:.22;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .n{fill:#a9b6ff;fill-opacity:.35}
+      .m{fill:#69f0d0;fill-opacity:.22}
+    </style>
+  </defs>
+
+  <!-- Horizontal runs -->
+  <path class="w" d="M30 70 H180 Q205 70 205 95 V150"/>
+  <path class="w" d="M90 210 H250 Q270 210 270 190 V120"/>
+  <path class="t" d="M40 330 H190 Q215 330 215 305 V250"/>
+
+  <!-- Vertical trunks -->
+  <path class="w" d="M320 40 V150 Q320 175 295 175 H240"/>
+  <path class="t" d="M350 240 V360 Q350 385 325 385 H240"/>
+
+  <!-- Branches -->
+  <path class="w" d="M205 150 H285 Q305 150 305 130 V90"/>
+  <path class="t" d="M215 250 H305 Q330 250 330 225 V190"/>
+  <path class="w" d="M120 120 V170 Q120 190 140 190 H185"/>
+
+  <!-- Nodes -->
+  <circle class="n" cx="30" cy="70" r="5"/>
+  <circle class="n" cx="205" cy="95" r="5"/>
+  <circle class="n" cx="205" cy="150" r="5"/>
+  <circle class="n" cx="90" cy="210" r="5"/>
+  <circle class="n" cx="270" cy="190" r="5"/>
+  <circle class="m" cx="40" cy="330" r="5"/>
+  <circle class="m" cx="215" cy="305" r="5"/>
+  <circle class="m" cx="215" cy="250" r="5"/>
+  <circle class="n" cx="320" cy="40" r="5"/>
+  <circle class="n" cx="320" cy="150" r="5"/>
+  <circle class="n" cx="295" cy="175" r="5"/>
+  <circle class="m" cx="350" cy="240" r="5"/>
+  <circle class="m" cx="350" cy="360" r="5"/>
+  <circle class="m" cx="325" cy="385" r="5"/>
+
+  <!-- Micro traces for texture -->
+  <path class="w" d="M150 40 H210"/>
+  <path class="t" d="M60 150 H110"/>
+  <path class="w" d="M250 315 H300"/>
+  <path class="t" d="M110 365 H160"/>
+</svg>
