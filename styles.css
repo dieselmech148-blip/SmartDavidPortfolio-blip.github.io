@@ -35,7 +35,7 @@ body::after{
   position:fixed;
   inset:0;
   background: url("assets/backgrounds/circuit-pattern.svg") center / 760px repeat;
-  opacity:0.10;
+  opacity:0.25;
   z-index:-1;
   pointer-events:none;
 }
